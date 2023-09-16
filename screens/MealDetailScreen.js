@@ -14,7 +14,6 @@ function MealDetailScreen({ route, navigation }) {
   const mealId = route.params.mealId;
 
   const selectedMeal = MEALS.find((meal) => meal.id === mealId);
-  // selectedMeal sayesinde bizim yemegin resmine basliga tum ozellilerine erismemizi sagliyacak
 
   const mealIsFavorite = favoriteMealsCtx.ids.includes(mealId);
 
